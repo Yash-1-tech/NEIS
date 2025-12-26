@@ -25,7 +25,11 @@ function renderAdmin(data) {
         const row = document.createElement("tr");
 
         row.innerHTML = `
-            <td>${app.id}</td>
+            <td>
+              <a href="application.html?id=${app.id}">
+                ${app.id}
+              </a>
+            </td>
             <td>${app.state}</td>
             <td>${app.scheme}</td>
             <td class="status-${app.status}">
