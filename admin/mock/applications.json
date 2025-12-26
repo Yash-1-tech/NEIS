@@ -1,0 +1,34 @@
+{
+  "summary": {
+    "total": 128,
+    "eligible": 82,
+    "flagged": 31,
+    "highRisk": 15
+  },
+  "applications": [
+    {
+      "id": "APP-10231",
+      "state": "Maharashtra",
+      "scheme": "Education Scholarship",
+      "status": "FLAGGED",
+      "reason": "Income mismatch",
+      "submittedOn": "2025-02-12"
+    },
+    {
+      "id": "APP-10245",
+      "state": "Gujarat",
+      "scheme": "Ayushman Bharat",
+      "status": "ELIGIBLE",
+      "reason": null,
+      "submittedOn": "2025-02-11"
+    },
+    {
+      "id": "APP-10266",
+      "state": "UP",
+      "scheme": "PM Awas Yojana",
+      "status": "HIGH_RISK",
+      "reason": "Document tampering suspected",
+      "submittedOn": "2025-02-10"
+    }
+  ]
+}
