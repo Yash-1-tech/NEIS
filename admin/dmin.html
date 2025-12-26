@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NEIS – Officer Dashboard</title>
+    <link rel="stylesheet" href="../css/gov.css">
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<header>
+    <h2>NEIS – Officer Portal</h2>
+    <span>Authorized Personnel Only</span>
+</header>
+
+<div class="container">
+    <h1>District Overview</h1>
+
+    <!-- Summary Cards -->
+    <div class="dashboard-cards">
+        <div class="card green">
+            <h2 id="eligibleCount">0</h2>
+            <p>Eligible</p>
+        </div>
+        <div class="card orange">
+            <h2 id="flaggedCount">0</h2>
+            <p>Flagged</p>
+        </div>
+        <div class="card red">
+            <h2 id="highRiskCount">0</h2>
+            <p>High Risk</p>
+        </div>
+    </div>
+
+    <h2 style="margin-top:32px;">Recent Applications</h2>
+
+    <table class="gov-table">
+        <thead>
+            <tr>
+                <th>Application ID</th>
+                <th>State</th>
+                <th>Scheme</th>
+                <th>Status</th>
+                <th>Submitted On</th>
+            </tr>
+        </thead>
+        <tbody id="appTable"></tbody>
+    </table>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>
