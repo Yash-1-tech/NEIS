@@ -1,0 +1,11 @@
+{
+  "welcome": "Welcome",
+  "eligible": "Eligible Schemes",
+  "needDocs": "Need Documents",
+  "notEligible": "Not Eligible",
+  "schemesTitle": "Schemes You Can Apply For",
+  "eligibleBadge": "Eligible",
+  "needDocsBadge": "Documents Required",
+  "uploadBtn": "Upload Missing Document",
+  "proceedBtn": "Proceed"
+}
