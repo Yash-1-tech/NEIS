@@ -1,0 +1,31 @@
+{
+  "applicationId": "APP-10231",
+  "applicant": {
+    "state": "Maharashtra",
+    "incomeCategory": "BPL",
+    "familyType": "Joint"
+  },
+  "scheme": {
+    "name": "Education Scholarship",
+    "benefit": "₹25,000 per year"
+  },
+  "documents": [
+    {
+      "type": "Ration Card",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "Income Certificate",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "Caste Certificate",
+      "status": "MISSING"
+    }
+  ],
+  "risk": {
+    "level": "FLAGGED",
+    "reason": "Income mismatch with uploaded certificate"
+  },
+  "submittedOn": "2025-02-12"
+}
