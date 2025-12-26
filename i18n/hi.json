@@ -1,0 +1,11 @@
+{
+  "welcome": "स्वागत है",
+  "eligible": "पात्र योजनाएँ",
+  "needDocs": "दस्तावेज़ आवश्यक",
+  "notEligible": "अपात्र",
+  "schemesTitle": "आप जिन योजनाओं के लिए आवेदन कर सकते हैं",
+  "eligibleBadge": "पात्र",
+  "needDocsBadge": "दस्तावेज़ आवश्यक",
+  "uploadBtn": "दस्तावेज़ अपलोड करें",
+  "proceedBtn": "आगे बढ़ें"
+}
