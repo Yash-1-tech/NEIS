@@ -1,0 +1,61 @@
+/* Government-style minimal CSS */
+
+body {
+    margin: 0;
+    font-family: "Noto Sans", "Roboto", Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #1a1a1a;
+}
+
+header {
+    background-color: #0b3c5d;
+    color: white;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    height: 48px;
+    margin-right: 16px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 32px auto;
+    background: white;
+    padding: 32px;
+    border-radius: 4px;
+}
+
+h1, h2 {
+    color: #0b3c5d;
+}
+
+button {
+    background-color: #0b3c5d;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button.secondary {
+    background-color: #e6e6e6;
+    color: #000;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.status {
+    margin-top: 16px;
+    font-weight: bold;
+}
