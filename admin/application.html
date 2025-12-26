@@ -1,1 +1,41 @@
-admin/mock/application-detail.json
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Application Details – NEIS</title>
+    <link rel="stylesheet" href="../css/gov.css">
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<header>
+    <h2>NEIS – Application Review</h2>
+</header>
+
+<div class="container">
+    <h1 id="appId">Application</h1>
+
+    <h2>Applicant Summary</h2>
+    <p><strong>State:</strong> <span id="state"></span></p>
+    <p><strong>Income Category:</strong> <span id="income"></span></p>
+    <p><strong>Family Type:</strong> <span id="family"></span></p>
+
+    <h2>Scheme</h2>
+    <p id="scheme"></p>
+
+    <h2>Documents</h2>
+    <ul id="documents"></ul>
+
+    <h2>Risk Assessment</h2>
+    <p id="risk"></p>
+
+    <h2>Submission Date</h2>
+    <p id="submitted"></p>
+
+    <button onclick="goBack()">← Back to Dashboard</button>
+</div>
+
+<script src="application.js"></script>
+</body>
+</html>
+
