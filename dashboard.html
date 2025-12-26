@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard – NEIS</title>
+    <link rel="stylesheet" href="css/gov.css">
+</head>
+<body>
+
+<header>
+    <h2>NEIS Dashboard</h2>
+</header>
+
+<div class="container">
+    <h1 id="greeting">Welcome</h1>
+
+    <!-- Eligibility Counters -->
+    <div style="display:flex; gap:16px; margin-top:24px;">
+        <div class="card green">
+            <h2 id="eligibleCount">0</h2>
+            <p>Eligible Schemes</p>
+        </div>
+        <div class="card orange">
+            <h2 id="needDocsCount">0</h2>
+            <p>Need Documents</p>
+        </div>
+        <div class="card red">
+            <h2 id="notEligibleCount">0</h2>
+            <p>Not Eligible</p>
+        </div>
+    </div>
+
+    <h2 style="margin-top:40px;">Schemes You Can Apply For</h2>
+    <div id="schemeList"></div>
+</div>
+
+<script src="js/dashboard.js"></script>
+</body>
+</html>
 
