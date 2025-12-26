@@ -17,16 +17,13 @@
     <!-- Eligibility Counters -->
     <div class="dashboard-cards" style="display:flex; gap:16px; margin-top:24px;">
         <div class="card green">
-            <h2 id="eligibleCount">0</h2>
-            <p>Eligible Schemes</p>
+            <h2 id="eligibleLabel">Eligible Schemes</h2>
         </div>
         <div class="card orange">
-            <h2 id="needDocsCount">0</h2>
-            <p>Need Documents</p>
+            <h2 id="needDocsLabel">Need Documents</h2>
         </div>
         <div class="card red">
-            <h2 id="notEligibleCount">0</h2>
-            <p>Not Eligible</p>
+            <h2 id="notEligibleLabel">Not Eligible</h2>
         </div>
         <select id="langSelect" onchange="changeLanguage(this.value)">
             <option value="en">English</option>
@@ -35,7 +32,7 @@
 
     </div>
 
-    <h2 style="margin-top:40px;">Schemes You Can Apply For</h2>
+    <h2 id="schemesTitle">Schemes You Can Apply For</h2>
     <div id="schemeList"></div>
 </div>
 
