@@ -59,3 +59,22 @@ input, select {
     margin-top: 16px;
     font-weight: bold;
 }
+
+.card {
+    flex: 1;
+    padding: 20px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+}
+
+.green { background-color: #2e7d32; }
+.orange { background-color: #ef6c00; }
+.red { background-color: #c62828; }
+
+.scheme-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin-top: 16px;
+    border-left: 6px solid #0b3c5d;
+}
