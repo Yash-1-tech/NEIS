@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NEIS – National Eligibility Information System</title>
+    <link rel="stylesheet" href="css/gov.css">
+</head>
+<body>
+
+<header>
+    <img src="assets/neis-logo.png" alt="NEIS Logo">
+    <div>
+        <h2>NEIS</h2>
+        <div>National Eligibility Information System</div>
+    </div>
+</header>
+
+<div class="container">
+    <h1>Welcome</h1>
+    <p>Please login using your mobile number.</p>
+
+    <label>Language</label>
+    <select id="language">
+        <option value="en">English</option>
+        <option value="hi">हिन्दी</option>
+        <option value="mr">मराठी</option>
+    </select>
+
+    <label>Mobile Number</label>
+    <input type="tel" id="phone" placeholder="+91XXXXXXXXXX">
+
+    <button onclick="sendOTP()">Login with Phone Number</button>
+
+    <div class="status" id="status"></div>
+</div>
+
+<script src="js/firebase.js"></script>
+<script src="js/auth.js"></script>
+</body>
+</html>
