@@ -1,0 +1,34 @@
+{
+  "user": {
+    "name": "Citizen",
+    "state": "Maharashtra",
+    "incomeCategory": "BPL",
+    "familyType": "Joint"
+  },
+  "summary": {
+    "eligible": 4,
+    "needDocuments": 2,
+    "notEligible": 3
+  },
+  "schemes": [
+    {
+      "id": "edu_sch_01",
+      "name": "Education Scholarship",
+      "benefit": "₹25,000 per year",
+      "status": "need_documents",
+      "missing": ["Caste Certificate"]
+    },
+    {
+      "id": "health_ayush",
+      "name": "Ayushman Bharat",
+      "benefit": "₹5 Lakh health cover",
+      "status": "eligible"
+    },
+    {
+      "id": "housing_pm",
+      "name": "PM Awas Yojana",
+      "benefit": "Subsidised housing loan",
+      "status": "eligible"
+    }
+  ]
+}
